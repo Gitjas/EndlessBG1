@@ -37,3 +37,6 @@
 
 /* new for v18 */
 @5028  = ~Modmerge lub DLC Merger jest konieczny, by instalowac mody na tej grze.~
+
+/* new for v21 */
+@5029  = ~Komponent "Extended Law System" modyfikacji Jarl's Adventure Pack musi byc zainstalowany po EBG1.~

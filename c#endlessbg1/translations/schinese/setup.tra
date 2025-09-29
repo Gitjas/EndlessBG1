@@ -37,3 +37,6 @@
 
 /* new for v18 */
 @5028  = ~在安装此游戏的模组之前，需要先使用Modmerge或argent77的DLC工具合并。~
+
+/* new for v21 */
+@5029  = ~"Extended Law System" from Jarl's Adventure Pack needs to be installed after ebg1.~

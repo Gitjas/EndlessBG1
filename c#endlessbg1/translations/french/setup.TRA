@@ -38,6 +38,9 @@
 /* new for v18 */
 @5028 = ~Modmerge ou DLC Merger d'Argent est necessaire avant que des mods puissent etre installes sur ce jeu.~ 
 
+/* new for v21 */
+@5029 = ~Le composant de Jarl's Adventure Pack "Extended Law System" doit etre installe apres EBG1.~
+
 
 // WeiDU prompts
 @-1000= "Le mod %TP2_FILE_NAME% contient"

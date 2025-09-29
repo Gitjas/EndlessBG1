@@ -310,6 +310,7 @@ BUT_ONLY
 BEGIN @5002   /* ~More Flavor to Hero of Baldur's Gate (Includes PC's Residence Inside Palace)~ */ DESIGNATED 1 
 LABEL EBG1_MoreFlavor
 REQUIRE_COMPONENT ~c#endlessbg1.tp2~ ~0~ @5003
+FORBID_COMPONENT ~JA#BGT_AdvPack/Setup-JA#BGT_AdvPack.tp2~ 1 @5029 /* ~"Extended Law System" from Jarl's Adventure Pack needs to be installed after ebg1.~ */
 REQUIRE_PREDICATE (GAME_IS ~eet bgee bgt~) @5013 /* ~This component is only compatible with BG:EE, SoD, BGT, and EET.~ */
 FORBID_COMPONENT ~EET_end.tp2~ ~0~ @5023
 FORBID_COMPONENT ~EET_end.tp2~ ~1~ @5023
@@ -472,6 +473,7 @@ BEGIN @5004   /* ~Imoen and Duke Jannath (Imoen Gets Residence Inside Palace)~ *
 LABEL EBG1_ImoenJannath
 REQUIRE_COMPONENT ~c#endlessbg1.tp2~ ~0~ @5003
 FORBID_COMPONENT ~transitions/setup-transitions.tp2~ 0 @5022 /* ~This component of ebg1 is already replaced by Transitions.~ */
+FORBID_COMPONENT ~JA#BGT_AdvPack/Setup-JA#BGT_AdvPack.tp2~ 1 @5029 /* ~"Extended Law System" from Jarl's Adventure Pack needs to be installed after ebg1.~ */
 REQUIRE_PREDICATE (GAME_IS ~eet bgee bgt~) @5013 /* ~This component is only compatible with BG:EE, SoD, BGT, and EET.~ */
 FORBID_COMPONENT ~EET_end.tp2~ ~0~ @5023
 FORBID_COMPONENT ~EET_end.tp2~ ~1~ @5023
